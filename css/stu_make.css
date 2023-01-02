@@ -1,0 +1,261 @@
+.modal2 {
+  --bs-modal-zindex: 1055;
+  --bs-modal-width: 785px;
+}
+    
+
+  .dropdown-item-danger {
+    color: var(--bs-red);
+  }
+  .dropdown-item-danger:hover,
+  .dropdown-item-danger:focus {
+    color: #fff;
+    background-color: var(--bs-red);
+  }
+  .dropdown-item-danger.active {
+    background-color: var(--bs-red);
+  }
+  
+  .btn-hover-light {
+    background-color: var(--bs-white);
+  }
+  .btn-hover-light:hover,
+  .btn-hover-light:focus {
+    color: var(--bs-blue);
+    background-color: var(--bs-light);
+  }
+  
+  .cal-month,
+  .cal-days,
+  .cal-weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+  }
+  .cal-month-name {
+    grid-column-start: 2;
+    grid-column-end: 7;
+    text-align: center;
+  }
+  .cal-weekday,
+  .cal-btn {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    padding: 0;
+  }
+  .cal-btn:not([disabled]) {
+    font-weight: 500;
+  }
+  .cal-btn:hover,
+  .cal-btn:focus {
+    background-color: rgba(0, 0, 0, .05);
+  }
+  .cal-btn[disabled] {
+    border: 0;
+    opacity: .5;
+  }
+  
+  .form-control-dark {
+    background-color: rgba(255, 255, 255, .05);
+    border-color: rgba(255, 255, 255, .15);
+  }
+  
+  
+  .w-220px {
+    width: 220px;
+  }
+  
+  .w-280px {
+    width: 280px;
+  }
+  
+  .w-340px {
+    width: 340px;
+  }
+  
+  .w-600px {
+    width: 600px;
+  }
+
+.dropdown-hidden {
+    display: none;
+}
+
+.dropdown-hidden:hover {
+    display: none;
+}
+
+.dropdown-show {
+    display: block;
+}
+/* 
+::placeholder {
+  color: #000;
+} */
+
+/* -------------------------------------------------------- header end -------------------------------------------------------- */
+
+.icon-change:hover{
+  filter: invert(1);
+  transition: 0.2s;
+
+}
+
+.btn-primary{
+  background-color: #FF914D;
+  border: none;
+}
+
+.search {
+  margin: 16px 16px 0 0;
+}
+
+
+
+.modal-title {
+  font-size: 24px;
+}
+
+.modal-header {
+  background-color: #FF914D;
+  color: #fff;
+  
+}
+
+.modal-body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+form {
+  text-align: center;
+  
+}
+
+.container-seclect {
+  margin-top: 64px;
+}
+
+.FillUser {
+  border: none;
+  border-bottom: 1px solid #333;
+  margin-top: 2rem;
+
+}
+
+.name {
+  margin-top: 0;
+}
+
+.space {
+  margin-bottom: 32px;
+}
+
+.modal-footer {
+  margin-top: 32px;
+}
+
+.modal-footer input {
+  color: #fff;
+  background-color: #FF914D;
+}
+
+.modal-footer input:hover {
+  color: #fff;
+  background-color: #FF914D;
+}
+
+.change {
+  color: #fff;
+  background-color: #FF914D;
+}
+.change:hover {
+  color: #fff;
+  background-color: #ffa600;
+}
+
+
+.SignUp {
+  background-color: #FF914D;
+  border: #fff;
+  color: #fff;
+  padding:6px 12px;
+  border-radius: 5px;
+  
+}
+/* -------------------------------------------------------- login end -------------------------------------------------------- */
+
+.form {
+  margin: 0 10%;
+}
+
+
+.form-size {
+  width: 180px;
+  border: none;
+  border-bottom: 1px solid #333;
+  background-color: #fff;
+  color: #888;
+}
+.form-size2 {
+  width: 100px;
+  border: none;
+  border-bottom: 1px solid #333;
+  background-color: #fff;
+  color: #888;
+}
+
+.FillID {
+  width: 100px;
+  border: none;
+  border-bottom: 1px solid #333;
+  /* margin-top: 2rem; */
+}
+
+
+.row-top {
+  margin-top: 32px;
+}
+/* -------------------------------------------------------- sign up end -------------------------------------------------------- */
+
+
+@media only screen and (min-width: 992px) {
+  .search {
+    margin: 0 16px 0 0;
+  }
+}
+@media only screen and (max-width: 650px) {
+
+  .name {
+    margin-top: 32px;
+  }
+  
+  .row-sm {
+    margin-top: 32px;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .form-size2 {
+    width: 180px;
+    border: none;
+    border-bottom: 1px solid #333;
+    background-color: #fff;
+    color: #888;
+  }
+  
+  .FillID {
+    width: 180px;
+    border: none;
+    border-bottom: 1px solid #333;
+    /* margin-top: 2rem; */
+  }
+}
